@@ -3,8 +3,17 @@ package com.aduan.study.algorithmsort;
 import java.util.Arrays;
 
 /**
- * 快速排序算法：分治法
- * 在每一轮挑选一个基准元素，并让其他比它大的元素移动到数列一边，比它小的元素移动到数列的另一边，从而把数列拆解成了两个部分
+ * 排序算法之 -- 快速排序算法：分治法
+ * <p>
+ * 核心思想：在每一轮挑选一个基准元素，并让其他比它大的元素移动到数列一边，比它小的元素移动到数列的另一边，从而把数列拆解成了两个部分
+ * <p>
+ * 排序过程：
+ * <p>
+ * 时间复杂度：最坏情况下 O(n^2)；平均时间复杂度：O(NLogN)
+ *
+ * @author duanjun
+ * @desc sum up the quick sort from my old code of university period
+ * @date 2020.03.24
  */
 public class QuickSort {
     public static int total = 0;
