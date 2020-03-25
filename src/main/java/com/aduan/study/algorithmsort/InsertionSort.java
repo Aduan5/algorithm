@@ -3,9 +3,16 @@ package com.aduan.study.algorithmsort;
 import java.util.Arrays;
 
 /**
- * 插入排序
+ * 排序算法之 -- 插入排序
  */
 public class InsertionSort {
+
+    public static void main(String[] args) {
+//        int[] nums = {6, 5, 4, 3, 2, 1};
+//        int[] nums = {1, 2, 3, 4, 5, 6};
+        int[] nums = {4, 6, 3, 1, 5, 2};
+        sort(nums);
+    }
 
     public static void sort(int[] nums) {
         System.out.print("插入排序开始 ----------");
@@ -36,13 +43,8 @@ public class InsertionSort {
         System.out.println("插入排序完成 -------------------总共交换：" + totalChange);
     }
 
-    public static void main(String[] args) {
-        int[] nums = {6, 5, 4, 3, 2, 1};
-        sort(nums);
-    }
 
     public static void printArray(int[] nums) {
-        Arrays.stream(nums).forEach(num -> System.out.print(num));
-        System.out.println("");
+        System.out.println(Arrays.toString(nums));
     }
 }
