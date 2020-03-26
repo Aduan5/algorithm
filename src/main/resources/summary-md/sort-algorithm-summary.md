@@ -32,7 +32,7 @@
         以此类推完成全部完成排序。。。
 ```
 
-- 代码实现：[插入排序代码实现和分析](../java/com/aduan/study/algorithmsort/InsertionSort.java)
+- 代码实现：[插入排序代码实现和分析](../../java/com/aduan/study/algorithmsort/InsertionSort.java)
 
   
 
