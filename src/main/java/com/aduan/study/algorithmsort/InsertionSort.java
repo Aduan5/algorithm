@@ -3,7 +3,10 @@ package com.aduan.study.algorithmsort;
 import java.util.Arrays;
 
 /**
- * 排序算法之 -- 插入排序
+ * 排序算法之 -- 插入排序 - 直接插入排序
+ *
+ * @author dj
+ * @date 2020-03-26
  */
 public class InsertionSort {
 

@@ -3,7 +3,7 @@ package com.aduan.study.algorithmsort;
 import java.util.Arrays;
 
 /**
- * Shell排序
+ * 排序算法之 - 插入排序 - Shell排序
  */
 public class ShellSort {
 

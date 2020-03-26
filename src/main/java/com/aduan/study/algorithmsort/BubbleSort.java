@@ -11,7 +11,7 @@ import java.util.Arrays;
  * <p>
  * 时间复杂度：最坏情况下 O(n^2)；最优情况：O(n)；平均时间复杂度：O(n^2)
  *
- * @author duanjun
+ * @author dj
  * @desc sum up the bubble sort from my old code of university period
  * @date 2020.03.24
  */

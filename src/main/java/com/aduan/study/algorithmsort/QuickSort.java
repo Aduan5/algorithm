@@ -20,7 +20,7 @@ import java.util.Arrays;
  * <p>
  * 时间复杂度：最坏情况下 O(n^2)；平均时间复杂度：O(NLogN)
  *
- * @author duanjun
+ * @author dj
  * @date 2020.03.24
  * @see 参考文章 [程序员小灰] {@link https://mp.weixin.qq.com/s/PQLC7qFjb74kt6PdExP8mw}
  */

@@ -3,7 +3,7 @@ package com.aduan.study.algorithmsort;
 import java.util.Arrays;
 
 /**
- * 选择排序
+ * 排序算法之 - 选择排序 - 直接选择排序
  */
 public class SelectionSort {
 
