@@ -48,7 +48,7 @@ package com.aduan.study.leetcode.binarytree;
 public class _572_SubtreeOfAnotherTree {
 
     public static void main(String[] args) {
-        _572_SubtreeOfAnotherTree a572SubtreeOfAnotherTree = new _572_SubtreeOfAnotherTree();
+        _572_SubtreeOfAnotherTree subtree = new _572_SubtreeOfAnotherTree();
 
         // 样例1
         TreeNode s1 = new TreeNode(3,
@@ -61,8 +61,8 @@ public class _572_SubtreeOfAnotherTree {
 
         // 子树
         TreeNode t = new TreeNode(4, new TreeNode(1), new TreeNode(2));
-        System.out.println(a572SubtreeOfAnotherTree.isSubtree(s1, t));
-        System.out.println(a572SubtreeOfAnotherTree.isSubtree(s2, t));
+        System.out.println(subtree.isSubtree(s1, t));
+        System.out.println(subtree.isSubtree(s2, t));
     }
 
     public boolean isSubtree(TreeNode s, TreeNode t) {
@@ -98,24 +98,24 @@ public class _572_SubtreeOfAnotherTree {
         return check(s.left, t.left) && check(s.right, t.right);
     }
 
+    static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+
+    }
 }
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode() {
-    }
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-
-}
